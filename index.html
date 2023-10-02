@@ -7,6 +7,8 @@
         </title>
         <meta charset="UTF-8">
         <style>
+            body{padding-left: 200px;
+                 padding-right: 200px;}
             .box{
                 height:40px;
                 border-top: 1px solid grey;
@@ -43,6 +45,37 @@
             .copyright {
                 line-height: 20px;
             }
+            ul {
+            margin: 0;
+            padding: 0;
+            /* 去除默认的圆点 */
+            list-style-type: none;
+        }
+        ul>li{
+            border-bottom:solid 1px #ccc;
+            padding: 10px;
+
+        }
+        span{
+            /* 内联元素转成块元素 */
+            display:inline-block;
+            width: 30px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 24px;
+        }
+        #news {
+            width: 400px; 
+            border: solid 1px #ccc;
+            border-top: 5px solid #ccc;
+            padding: 0px 5px
+        }
+        .last{
+            border: none;
+        }
+
+
+
         </style>
     </head>
     <body> 
@@ -53,7 +86,21 @@
             <a href="#">讨论</a>
             <a href="#">求职</a>
             <a href="#">商店</a>
+            <form>
+                <input type="text" id="search" placeholder="搜索">
+                <button type="submit">🔍</button>
+            </form>
         </div>
+        
+        </div>
+        <h3>学习计划></h3>
+        <h3>推荐</h3>
+        <div id="news">
+            <ul>
+                <li><h4>13天突破C语言</h4>打破传统学习方式，带你快速入门C语言</li>
+                <li><h4>组队|一起监督，打卡学习</h4>最近建了个群，有uu有兴趣一起每天互相监督打卡交流算法嘛(●'◡'●)，本人小白，想准备明年蓝桥杯</li>
+                <li><h4>C语言求和</h4>作为新手，可以帮忙看看我的求和哪里出问题了</li>
+            </ul>
         </div>
     </body>
     
