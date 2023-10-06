@@ -1,0 +1,244 @@
+body {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.cd {
+    height: 20px;
+    border-top: none;
+    border-bottom: 1px solid rgb(192, 190, 190);
+    padding-bottom: 30px;
+    display: flex;
+    font-size: 14px;
+}
+.flex1 {
+    text-align: left;
+    flex:2;
+}
+.flex2 {
+    flex:1.5;
+}
+.flex3 {
+    flex:1;
+    text-align: right;
+}
+#logo2 {
+    padding-top: 5px;
+    float: left;
+    width: 10%;
+}
+#search {
+    background-color: #ccc;
+    border-width: 0;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 80%;
+}
+#submit {
+    box-sizing: border-box;
+    width: 10%;
+    border-width: 0;
+}
+.flex3 bb{
+    color: #656666;
+}
+.flex3 bb:hover {
+    background-color: white;
+    color: black;
+}
+.flex3 cc {
+    letter-spacing: 5px;
+    color:#656666;
+}
+#vip {
+    height: 200%;
+    background-color: #fff4e3;
+    color: #ffa116;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+#cd1 a {
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #656666;
+    text-decoration: none;
+}
+
+#cd1 a:hover {
+    background-color: white;
+    color: black;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.copyright {
+    line-height: 20px;
+}
+
+#news {
+    width: 90%;
+    border: solid 1px #ccc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 0px 5px;
+}
+
+
+.last {
+    border: none;
+}
+
+.box3 {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    position: relative;
+    margin-top: 25px;
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    border: solid 1px #ccc;
+    height: 320px;
+    border-radius: 15px;
+}
+
+#loading {
+    position: relative;
+    background-color:black;
+    color:white;
+    padding:5px 100px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#pic1 {
+    margin-top: 20px;
+    position: relative;
+    float:left;
+    width: 10%;
+    box-sizing: border-box;
+   <!border: 1px solid brown;>
+}
+
+#pas {
+    width: 90%;
+    position: relative;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+    height: 130px;
+    <!border: 1px solid black;>
+}
+
+#user1 {
+    width: 90%;
+    float: right;
+    <!border: 1px solid green;>
+    box-sizing: border-box;
+}
+
+#user2 {
+    color:rgb(143, 142, 142);
+    position: relative;
+    float: left;
+    font-size: 14px;
+    padding-left: 10%;
+    <!border: 1px solid red;>
+}
+
+#mryt {
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    height: 80px;
+}
+
+#mryt h5{
+    position: relative;
+    color: #1890ff;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#c1 {
+    float: left;
+    width: 14%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    height: 70px;
+}
+#c2 {
+    float: left;
+    width: 14%;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+.Calendar {
+    height: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tag {
+    position: relative;
+    margin-top: 25px;
+    height: 50px;
+    color: rgb(192, 190, 190);
+    width: 90%;
+}
+.tag a {
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    margin-right: 30px;
+    color: #656666;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.tag a1 {
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    margin-right: 30px;
+    color: black;
+    text-decoration: none;
+    background-color: #ebebeb;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 8%;
+    border-radius: 10px;
+}
